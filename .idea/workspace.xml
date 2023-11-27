@@ -4,17 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="035a2a5f-4b1e-476c-951d-06f5200831df" name="Changes" comment="init, updated boilerplate" />
+    <list default="true" id="035a2a5f-4b1e-476c-951d-06f5200831df" name="Changes" comment="Start setup routing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Turbolet85"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a9c215aa-7a8b-4794-8b25-2bedfaa79c5a" />
+        <option name="url" value="https://github.com/Turbolet85/MixGuru.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="JsBowerSettings">
     <bower-package value="" />
@@ -67,7 +88,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\turbo\\Desktop\\web projects\\MixGuru\\node_modules\\prettier",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "project.scopes",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "ts.external.directory.path": "C:\\Users\\turbo\\Desktop\\web projects\\MixGuru\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -90,6 +111,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\turbo\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="035a2a5f-4b1e-476c-951d-06f5200831df" name="Changes" comment="" />
@@ -98,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1701112941924</updated>
       <workItem from="1701112945085" duration="1306000" />
-      <workItem from="1701114302922" duration="4230000" />
+      <workItem from="1701114302922" duration="4609000" />
+      <workItem from="1701120088062" duration="138000" />
     </task>
     <task id="LOCAL-00001" summary="update packages">
       <option name="closed" value="true" />
