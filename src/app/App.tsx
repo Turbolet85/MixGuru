@@ -1,11 +1,20 @@
-import styles from './app.module.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import { About, HomeLayout } from '../pages';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <HomeLayout />,
+  },
+  {
+    path: '/about',
+    element: <About />,
+  },
+]);
 
 const App = () => {
-  return (
-    <main className={styles.container}>
-      <div>BOILERPLATE</div>
-    </main>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
