@@ -1,10 +1,12 @@
-import { Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+
+import Navbar from '../features/Navbar/Navbar';
 
 const HomeLayout = () => {
   return (
     <>
-      <h1>HomeLayout</h1>
-      <Link to={'/about'}>About page</Link>
+      <Navbar />
+      <Outlet />
     </>
   );
 };
