@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="035a2a5f-4b1e-476c-951d-06f5200831df" name="Changes" comment="Start setup routing">
-      <change afterPath="$PROJECT_DIR$/src/features/Navbar/Navbar.tsx" afterDir="false" />
+    <list default="true" id="035a2a5f-4b1e-476c-951d-06f5200831df" name="Changes" comment="cocktail-list with cards">
+      <change afterPath="$PROJECT_DIR$/src/assets/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CocktailCard/CocktailCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CocktailList/CocktailList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SinglePageError.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Error.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Error.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomeLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomeLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Landing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Newsletter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsletter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +92,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.17.1&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.17.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/turbo/Desktop/web projects/MixGuru/src/assets&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
@@ -93,11 +104,19 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\turbo\\Desktop\\web projects\\MixGuru\\node_modules\\prettier&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\turbo\\Desktop\\web projects\\MixGuru\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\turbo\Desktop\web projects\MixGuru\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\turbo\Desktop\web projects\MixGuru\src\components\CocktailCard" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -132,7 +151,14 @@
       <workItem from="1701189602608" duration="1320000" />
       <workItem from="1701280955987" duration="2747000" />
       <workItem from="1701366044082" duration="1447000" />
-      <workItem from="1702204463876" duration="1928000" />
+      <workItem from="1702204463876" duration="3129000" />
+      <workItem from="1702207641566" duration="124000" />
+      <workItem from="1702207774665" duration="29000" />
+      <workItem from="1702207812912" duration="15000" />
+      <workItem from="1702208057329" duration="402000" />
+      <workItem from="1702208472909" duration="17367000" />
+      <workItem from="1702295919195" duration="29000" />
+      <workItem from="1702315371258" duration="7974000" />
     </task>
     <task id="LOCAL-00001" summary="update packages">
       <option name="closed" value="true" />
@@ -158,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701120316412</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add nav-bar and style via styled components">
+      <option name="closed" value="true" />
+      <created>1702206689486</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702206689486</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +215,8 @@
     <MESSAGE value="update packages" />
     <MESSAGE value="init, updated boilerplate" />
     <MESSAGE value="Start setup routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start setup routing" />
+    <MESSAGE value="add nav-bar and style via styled components" />
+    <MESSAGE value="cocktail-list with cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="cocktail-list with cards" />
   </component>
 </project>

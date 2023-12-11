@@ -228,3 +228,9 @@ ul {
 	background: var(--primary-500);
 }
 
+.page {
+	width: var(--fluid-width);
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 5rem 2rem;
+}
