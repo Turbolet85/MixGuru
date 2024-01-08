@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="035a2a5f-4b1e-476c-951d-06f5200831df" name="Changes" comment="cocktail-list with cards">
+    <list default="true" id="035a2a5f-4b1e-476c-951d-06f5200831df" name="Changes" comment="add single cocktail">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cocktail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cocktail.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomeLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomeLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Landing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "18.17.1",
     "javascript.nodejs.core.library.typings.version": "18.17.19",
-    "last_opened_file_path": "C:/Users/turbo/Desktop/web projects/MixGuru/src/assets",
+    "last_opened_file_path": "C:/Users/turbo/Desktop/web projects/MixGuru/node_modules/.bin/stylelint.cmd",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -94,7 +95,7 @@
     "npm.dev.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\turbo\\Desktop\\web projects\\MixGuru\\node_modules\\prettier",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "settings.editor.selected.configurable": "actions.on.save",
     "ts.external.directory.path": "C:\\Users\\turbo\\Desktop\\web projects\\MixGuru\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -152,7 +153,15 @@
       <workItem from="1702398576130" duration="12185000" />
       <workItem from="1702411057008" duration="1000" />
       <workItem from="1702411290948" duration="190000" />
-      <workItem from="1702411488625" duration="2428000" />
+      <workItem from="1702411488625" duration="2619000" />
+      <workItem from="1702414133496" duration="361000" />
+      <workItem from="1702490383503" duration="675000" />
+      <workItem from="1703101384146" duration="623000" />
+      <workItem from="1704737833971" duration="28000" />
+      <workItem from="1704738171764" duration="24000" />
+      <workItem from="1704738204715" duration="769000" />
+      <workItem from="1704739030880" duration="691000" />
+      <workItem from="1704739737313" duration="4259000" />
     </task>
     <task id="LOCAL-00001" summary="update packages">
       <option name="closed" value="true" />
@@ -194,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702326772198</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add single cocktail">
+      <option name="closed" value="true" />
+      <created>1702413952509</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702413952509</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +236,7 @@
     <MESSAGE value="Start setup routing" />
     <MESSAGE value="add nav-bar and style via styled components" />
     <MESSAGE value="cocktail-list with cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="cocktail-list with cards" />
+    <MESSAGE value="add single cocktail" />
+    <option name="LAST_COMMIT_MESSAGE" value="add single cocktail" />
   </component>
 </project>
