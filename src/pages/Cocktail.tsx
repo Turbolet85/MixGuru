@@ -1,3 +1,4 @@
+import { QueryClient, useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import { Link, LoaderFunctionArgs, Navigate, useLoaderData } from 'react-router-dom';
 import styled from 'styled-components';
@@ -15,16 +16,27 @@ interface ApiResponse {
   data: { drinks: Drink[] };
 }
 
-export const loader = async ({ params }: LoaderFunctionArgs<CocktailData>) => {
-  const { id } = params;
-  const { data } = await axios.get(`${cocktailSearchUrl}${id}`);
-
-  return { id, data };
+const singleCocktailQuery = (id: string | undefined) => {
+  return {
+    queryKey: ['cocktail', id],
+    queryFn: async () => {
+      const { data } = await axios.get(`${cocktailSearchUrl}${id}`);
+      return data;
+    },
+  };
 };
 
-const Cocktail = () => {
-  const { data } = useLoaderData() as ApiResponse;
+export const loader =
+  (queryClient: QueryClient) =>
+  async ({ params }: LoaderFunctionArgs<CocktailData>) => {
+    const { id } = params;
+    await queryClient.ensureQueryData(singleCocktailQuery(id));
+    return { id };
+  };
 
+const Cocktail = () => {
+  const { id } = useLoaderData() as ApiResponse;
+  const { data } = useQuery(singleCocktailQuery(id));
   if (!data.drinks) {
     return <Navigate to={'/'} />;
   }

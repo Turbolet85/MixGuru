@@ -4,7 +4,7 @@ import { Drink } from '../../pages/Landing';
 import CocktailCard from '../CocktailCard/CocktailCard';
 
 interface CocktailListProps {
-  drinks: Drink[] | null;
+  drinks: Drink[] | null | undefined;
 }
 
 const CocktailList = ({ drinks }: CocktailListProps) => {

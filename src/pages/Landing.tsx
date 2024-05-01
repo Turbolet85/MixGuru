@@ -1,3 +1,4 @@
+import { QueryClient, useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import { useLoaderData } from 'react-router-dom';
 
@@ -40,16 +41,29 @@ interface LoaderParams {
   request: Request;
 }
 
-export const loader = async ({ request }: LoaderParams) => {
-  const url = new URL(request.url);
-
-  const searchTerm = url.searchParams.get('search') || '';
-  const response = await axios.get<ApiResponse>(`${cocktailSearchUrl}${searchTerm}`);
-  return { drinks: response.data.drinks, searchTerm };
+const searchCocktailsQuery = (searchTerm: string) => {
+  return {
+    queryKey: ['search', searchTerm || 'all'],
+    queryFn: async () => {
+      const response = await axios.get<ApiResponse>(`${cocktailSearchUrl}${searchTerm}`);
+      return response.data.drinks;
+    },
+  };
 };
 
+export const loader =
+  (queryClient: QueryClient) =>
+  async ({ request }: LoaderParams) => {
+    const url = new URL(request.url);
+
+    const searchTerm = url.searchParams.get('search') || '';
+    await queryClient.ensureQueryData(searchCocktailsQuery(searchTerm));
+    return { searchTerm };
+  };
+
 const Landing = () => {
-  const { drinks, searchTerm } = useLoaderData() as ApiResponse;
+  const { searchTerm } = useLoaderData() as ApiResponse;
+  const { data: drinks } = useQuery(searchCocktailsQuery(searchTerm));
   return (
     <>
       <SearchForm searchTerm={searchTerm} />

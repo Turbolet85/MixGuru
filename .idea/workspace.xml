@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="035a2a5f-4b1e-476c-951d-06f5200831df" name="Changes" comment="add single cocktail">
+    <list default="true" id="035a2a5f-4b1e-476c-951d-06f5200831df" name="Changes" comment="Update search functionality and upgrade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CocktailList/CocktailList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CocktailList/CocktailList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cocktail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cocktail.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Landing.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +173,7 @@
       <workItem from="1705603312162" duration="121000" />
       <workItem from="1714333639655" duration="9332000" />
       <workItem from="1714561148886" duration="91000" />
-      <workItem from="1714561248589" duration="4984000" />
+      <workItem from="1714561248589" duration="10816000" />
     </task>
     <task id="LOCAL-00001" summary="update packages">
       <option name="closed" value="true" />
@@ -244,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714341577217</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update search functionality and upgrade">
+      <option name="closed" value="true" />
+      <created>1714566470037</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714566470037</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +281,7 @@
     <MESSAGE value="add nav-bar and style via styled components" />
     <MESSAGE value="cocktail-list with cards" />
     <MESSAGE value="add single cocktail" />
-    <option name="LAST_COMMIT_MESSAGE" value="add single cocktail" />
+    <MESSAGE value="Update search functionality and upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update search functionality and upgrade" />
   </component>
 </project>
