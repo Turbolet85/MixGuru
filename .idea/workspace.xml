@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="035a2a5f-4b1e-476c-951d-06f5200831df" name="Changes" comment="add single cocktail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Newsletter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Newsletter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/SearchForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Landing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Landing.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +32,12 @@
     &quot;assignee&quot;: &quot;Turbolet85&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Turbolet85/MixGuru.git",
-    "accountId": "a9c215aa-7a8b-4794-8b25-2bedfaa79c5a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Turbolet85/MixGuru.git&quot;,
+    &quot;accountId&quot;: &quot;a9c215aa-7a8b-4794-8b25-2bedfaa79c5a&quot;
   }
-}]]></component>
+}</component>
   <component name="JsBowerSettings">
     <bower-package value="" />
     <bower.json value="" />
@@ -167,7 +168,9 @@
       <workItem from="1705424335197" duration="886000" />
       <workItem from="1705598736546" duration="1045000" />
       <workItem from="1705603312162" duration="121000" />
-      <workItem from="1714333639655" duration="7642000" />
+      <workItem from="1714333639655" duration="9332000" />
+      <workItem from="1714561148886" duration="91000" />
+      <workItem from="1714561248589" duration="4984000" />
     </task>
     <task id="LOCAL-00001" summary="update packages">
       <option name="closed" value="true" />
@@ -233,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714333703637</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add single cocktail">
+      <option name="closed" value="true" />
+      <created>1714341577217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714341577217</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

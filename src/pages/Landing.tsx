@@ -36,18 +36,24 @@ interface ApiResponse {
   searchTerm: string;
 }
 
-export const loader = async () => {
-  const searchTerm = '';
+interface LoaderParams {
+  request: Request;
+}
+
+export const loader = async ({ request }: LoaderParams) => {
+  const url = new URL(request.url);
+
+  const searchTerm = url.searchParams.get('search') || '';
   const response = await axios.get<ApiResponse>(`${cocktailSearchUrl}${searchTerm}`);
   return { drinks: response.data.drinks, searchTerm };
 };
 
 const Landing = () => {
-  const { drinks } = useLoaderData() as ApiResponse;
+  const { drinks, searchTerm } = useLoaderData() as ApiResponse;
   return (
     <>
+      <SearchForm searchTerm={searchTerm} />
       <CocktailList drinks={drinks} />
-      <SearchForm />
     </>
   );
 };
